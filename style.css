@@ -1,0 +1,40 @@
+*,
+*::after, 
+*::before { 
+    border: 0; 
+    box-sizing: border-box; 
+}
+
+body { 
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+}
+
+button {
+    font-size: inherit;
+    font-family: inherit;
+    font-weight: 700;
+    background-color: transparent; 
+    background-image: none; 
+    padding: 0; 
+}
+
+.table { 
+    border-collapse: collapse; 
+}
+
+.table, 
+.table th, 
+.table td { 
+    border: 1px solid #ccc; 
+}
+
+.table th, 
+.table td { 
+    padding: .5rem; 
+}
+
+.table th { 
+    cursor: pointer; 
+    text-decoration: underline; 
+}
